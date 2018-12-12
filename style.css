@@ -1,0 +1,358 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+li {
+    float: right;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    color: #876f4c;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Avenir Black', sans-serif;
+}
+
+li a:hover {
+    background-color: #e0ddc6;
+}
+body{
+    color:green;
+    margin:0;
+    -webkit-text-size-adjust:50%;
+    
+}
+
+html{
+    margin:0;
+}
+.logo{
+     margin-top:-40px;
+     padding-left:20px;
+     position: fixed;
+     z-index: 100;
+    
+ }
+ 
+ 
+.header{
+    background-image: url("img/header.png");
+    margin-top:55px;
+    margin-left: -40px;
+    margin-bottom: -45px;
+    text-align: center;
+    color: white;
+    font-size:100px;
+    font-family: 'Grand Hotel';
+}
+
+.headertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header .btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 30px;
+  color:white;
+  padding: 12px 24px;
+  border: 5px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   font-family: 'Avenir Black', sans-serif;
+}
+
+.header .btn:hover {
+  background-color: #876f4c;
+}
+#navbar {
+  overflow: hidden;
+  background-color:white;
+  
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #876f4c;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+   font-family: 'Avenir Black', sans-serif;
+  
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: #47c2cc;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#876f4c;
+    text-decoration:none;
+}
+
+#navbar .active {
+  background-color: #e0ddc6;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  float:left;
+  width:100%;
+  height:75px;
+}
+
+.sticky + .content {
+  padding-top: 200px;
+}
+
+.alldayegg {
+    background-color: #47c2cc;
+    height:600px;
+    width:100%;
+    text-align: center;
+}
+
+.subhead{
+    color:white;
+    font-family: 'Grand Hotel';
+    font-size:60px;
+    padding: 25px;
+}
+
+.subhead2{
+    color: #876f4c;
+    font-family: 'Grand Hotel';
+    font-size:60px;
+    padding: 25px;
+    text-align: center;
+}
+
+.subtext{
+    color:white;
+    font-family: 'Avenir Black', sans-serif;
+    font-size:20px;
+    padding-bottom: 50px;
+}
+
+.family {
+    background-image: url("img/ducks.png");
+    height:350px;
+    width:100%;
+    text-align: center;
+    padding-top:150px;
+    margin-bottom: -7px;
+    
+}
+
+
+.why{
+    background-image: url("img/food1.png");
+    height:400px;
+    width:100%;
+    text-align: center;
+}
+
+.textbox{
+    background-color: #876f4c; 
+    color: white;
+    font-family: 'Avenir Black', sans-serif;
+    margin-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 20px;
+    width:50%;
+    float:left;
+}
+
+.footer{
+    background-color: #47c2cc;
+    height:150px;
+    width:96%;
+    color:white;
+    font-family: 'Avenir Black', sans-serif;
+    font-size:20px;
+     padding-left: 50px;
+     padding-top: 30px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 100px;
+    background-color: #876f4c; 
+    color:white;
+    font-family: 'Avenir Black', sans-serif;
+    font-size:20px;
+    text-align:left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.p{
+   padding-bottom:20px;
+   
+}
+
+.column1 {
+    float: left;
+    width: 15%;
+    padding-left: 20px;
+    padding-right: 50px;
+    height: 100px;
+    background-color: #47c2cc;
+    color:white;
+    font-family: 'Avenir Black', sans-serif;
+    font-size:20px;
+    text-align:left;
+    line-height: 1.7;
+    
+}
+
+.column2 {
+    float: right;
+    width: 25%;
+    height: 100px;
+    background-color: #47c2cc;
+    color:white;
+    font-family: 'Grand Hotel';
+    font-size:45px;
+    text-align:left;
+    line-height: 1.7;
+}
+
+.footerlogo{
+    padding-left: 60px;
+    float:center;
+}
+    
+@media screen and (max-width:800px) {
+  .column2 {
+    width:100%;
+    font-size:25px;
+    line-height: 1;
+    text-align:center;
+    padding-left: -60px;
+  
+  }
+
+  .footerlogo {
+  padding-right:60px;
+  padding-top:10px;
+  }
+
+  .column {
+    width:10%;
+    float:left;
+    font-size:15px;
+    padding:-10px;
+    height:70px;
+    line-height: 1;
+    margin-top:-20px;
+  }
+
+
+  .column1{
+    width:100%;
+    font-size:15px;
+    height:100px;
+    line-height: 1;
+    text-align:center;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+
+
+  .column {
+    width:70%;
+    float:left;
+    font-size:15px;
+  }
+
+
+@media screen and (max-width:900px) {
+  .headertext {
+    width:50%;
+    font-size:30px;
+    border-radius: 5px;
+    top:30%;
+  }
+}
+
+  .header .btn {
+    width:50%;
+    font-size:10px;
+    border-radius: 2px;
+    top:40%;
+  }
+
+
+
+  .subtext {
+    font-size:15px;
+  }
+
+
+  .subhead, .subhead2 {
+    font-size:30px;
+  }
+
+
+  #navbar a  {
+    font-size:15px;
+     padding: 5px 5px;
+  }
+
+
+  .alldayegg  {
+    height:350px;
+    padding-top:30px;
+  }
+
+
+  .footer  {
+    width:100%;
+    padding-left:0px;
+    height:100px;
+  }
